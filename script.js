@@ -1,7 +1,9 @@
 function calculatePercentage() {
     
     var marks1 = parseInt(document.getElementById("marks1").value);
+    marks1=Math.abs(marks1);
     var marks2 = parseInt(document.getElementById("marks2").value);
+    marks2=Math.abs(marks2);
 
     // Validate input values
     if (marks1 > 20) {
